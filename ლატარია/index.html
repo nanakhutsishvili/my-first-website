@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"  href="style.css">
+    <script src="script.js"> 
+     </script> 
+</head>
+<body>
+    <h2>გათამაშების გენერატორი</h2>
+    <input class="number" id="min" type="number" placeholder="From">
+    <input class="number" id="max" type="number"  placeholder="To">
+    <input class="numbers" id="result" type="text">
+    <button class="button" onclick="test()">დაწყება</button>
+    <script>
+    const Min = document.getElementById("min");
+        const Max = document.getElementById("max");
+
+
+        const random = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
+        const result = document.getElementById("result");
+
+        function test() {
+                result.value = random(Number.parseInt(Min.value), Number.parseInt(Max.value))
+        } 
+    </script>
+</body>
+</html>
