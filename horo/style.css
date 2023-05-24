@@ -1,0 +1,41 @@
+body {
+    background-color: pink;
+    padding-top: 400px;
+    display: flex;
+    justify-content: center;
+    background-image: url(images/cover-1.jpg);
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+
+.numbers {
+    width: 200px;
+    height: 70px;
+    font-size: 50px;
+    font-weight: 800px;
+    border-radius: 25px;
+    padding-left: 40px;
+    margin-left: 100px;
+}
+
+.number {
+    width: 120px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: 800px;
+    border-radius: 25px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+
+.button {
+    width: 170px;
+    height: 60px;
+    margin-left: 30px;
+    font-size: 25px;
+    border-radius: 20px;
+    font-weight: 800px;
+    background-color: rgb(68, 183, 68);
+}
