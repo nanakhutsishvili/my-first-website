@@ -66,8 +66,6 @@ input {
 .but-1,
 .but-2,
 .but-3 {
-    position: relative;
-    cursor: pointer;
     background-color: #2980B9;
     columns: black;
     border-bottom-left-radius: 100px;
@@ -76,8 +74,10 @@ input {
     border-top-right-radius: 0px !important;
     border-bottom-right-radius: 0px !important;
     font-weight: 800px;
-    transition: 0.5s;
     padding: 10px 20px;
+    transition: 0.5s;
+    position: relative;
+    cursor: pointer;
     transition: transform .2s;
 }
 
@@ -270,10 +270,8 @@ input {
     height: 300px;
 }
 
-.loto   {width: 70px;
+.loto {
+    width: 70px;
     height: 70px;
     border-radius: 100%;
-    }
-
-
-
+}
